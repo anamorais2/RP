@@ -6,7 +6,7 @@ Este projeto tem como principal objetivo desenvolver classificadores capazes de 
 
 ## Dependências
 
-Para rodar o projeto, é necessário instalar as seguintes bibliotecas:
+Para rodar o projeto é necessário ter uma versão Python 3.x, Jupyter Notebook (para correr o código) e instalar as seguintes bibliotecas:
 
 ```bash
 pip install pandas numpy matplotlib seaborn plotly scipy scikit-learn statsmodels
@@ -24,6 +24,14 @@ pip install scipy
 pip install scikit-learn
 pip install statsmodels
 ```
+
+## Dataset
+Foi utilizado um conjunto de dados PhiUSIIL_Phishing_URL_Dataset.csv.
+
+Este conjunto de dados inclui 134.850 URLs legítimos e 100.945 URLs de phishing. As features foram extraídas tanto do código-fonte da página web associada à URL como da própria estrutura da URL. Além disso, algumas features foram derivadas a partir destas características base (como CharContinuationRate, URLTitleMatchScore, URLCharProb e TLDLegitimateProb), sendo designadas como hyper-features.
+
+No total, o dataset contém 54 features. Para facilitar a análise, consideramos apenas as features não categóricas.
+
 
 ## Estrutura do Código
 
