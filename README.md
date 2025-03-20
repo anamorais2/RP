@@ -35,16 +35,14 @@ No total, o dataset contém 54 features. Para facilitar a análise, consideramos
 
 ## Estrutura do Código
 
-1. **Carregamento dos dados**: 
-   - Os dados são lidos e processados
-2. **Normalização**: 
-   - Os dados são normalizados
+1. **Carregamento de dados**
+2. **Normalização**
 3. **Kolmogorov-Smirnov Test**:
    - KS-Test no dataset completo 
    - KS-Test separado por target
 4. **Kruskal Wallis Test**
-5. **PCA (Análise de Componentes Principais)**:
-6. **LDA (Análise Discriminante Linear)**:
+5. **PCA (Análise de Componentes Principais)**
+6. **LDA (Análise Discriminante Linear)**
 7. **MDC**
    - Euclidian Distance
    - Mahalanobis Distance
