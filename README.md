@@ -9,7 +9,7 @@ Este projeto tem como principal objetivo desenvolver classificadores capazes de 
 Para rodar o projeto é necessário ter uma versão Python 3.x, Jupyter Notebook (para correr o código) e instalar as seguintes bibliotecas:
 
 ```bash
-pip install pandas numpy matplotlib seaborn plotly scipy scikit-learn statsmodels
+pip install pandas numpy matplotlib seaborn plotly scipy scikit-learn statsmodels pymrmr
 ```
 
 Ou individualmente:
@@ -23,6 +23,7 @@ pip install plotly
 pip install scipy
 pip install scikit-learn
 pip install statsmodels
+pip install pymrmr
 ```
 
 ## Dataset
@@ -53,6 +54,15 @@ No total, o dataset contém 54 features. Para facilitar a análise, consideramos
    - Geração de relatórios '.csv'
 11. **PCA + Fisher LDA**
    - Geração de relatórios '.csv'
+12. **Bayes Classification**
+   - Geração de relatórios '.csv'
+13. **KNN Classificador**
+   - Geração de relatórios '.csv'
+14. **Suport Vector Machine**
+   - Geração de relatórios '.csv'
+15. **Random Forest**
+   - Geração de relatórios '.csv'
+   
 
 ## Como Executar o Projeto
 
