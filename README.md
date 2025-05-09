@@ -1,4 +1,4 @@
-# README - Projeto de Análise de Dados com PCA, LDA, Fisher e MDC
+# README - Projeto de Reconhecimento de Padrões
 
 ## Descrição
 
